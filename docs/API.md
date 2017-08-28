@@ -26,7 +26,7 @@ module.exports = botBuilder(function (message, originalApiRequest) {
 }, { platforms: ['facebook', 'twilio'] });
 ```
 
-The list of platform names can include: `facebook`, `slackSlashCommand`, `telegram`, `skype`, `twilio`, `kik`, `groupme`, `viber`, `alexa`.
+The list of platform names can include: `facebook`, `slackSlashCommand`(or `slack`), `telegram`, `skype`, `twilio`, `kik`, `groupme`, `viber`, `alexa`.
 
 ## Message object structure
 
